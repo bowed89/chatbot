@@ -1,0 +1,15 @@
+2024/04/21-12:30:09.472 552c Reusing MANIFEST C:\Users\MSI GS76 STEALTH\OneDrive\Documentos\TRABAJOS DESARROLLO\EMPRENDIMIENTO\bot-whatsapp-back-v2\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2024/04/21-12:30:09.473 552c Recovering log #52
+2024/04/21-12:30:09.473 552c Reusing old log C:\Users\MSI GS76 STEALTH\OneDrive\Documentos\TRABAJOS DESARROLLO\EMPRENDIMIENTO\bot-whatsapp-back-v2\.wwebjs_auth\session\Default\Local Storage\leveldb/000052.log 
+2024/04/22-12:22:08.098 7cc4 Level-0 table #56: started
+2024/04/22-12:22:08.099 7cc4 Level-0 table #56: 15730 bytes OK
+2024/04/22-12:22:08.100 7cc4 Delete type=0 #52
+2024/04/22-12:22:08.100 7cc4 Compacting 4@0 + 1@1 files
+2024/04/22-12:22:08.102 7cc4 Generated table #57@0: 81 keys, 6249 bytes
+2024/04/22-12:22:08.102 7cc4 Compacted 4@0 + 1@1 files => 6249 bytes
+2024/04/22-12:22:08.102 7cc4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/22-12:22:08.102 7cc4 Delete type=2 #44
+2024/04/22-12:22:08.102 7cc4 Delete type=2 #47
+2024/04/22-12:22:08.103 7cc4 Delete type=2 #50
+2024/04/22-12:22:08.103 7cc4 Delete type=2 #53
+2024/04/22-12:22:08.103 7cc4 Delete type=2 #56

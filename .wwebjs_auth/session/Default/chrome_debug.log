@@ -1,0 +1,11 @@
+[0421/123010.690:INFO:CONSOLE(215)] "Another connection wants to delete database 'wawc'. Closing db now to resume the delete request.", source: https://web.whatsapp.com/serviceworker.js (215)
+[0421/123010.690:INFO:CONSOLE(215)] "Another connection wants to delete database 'wawc'. Closing db now to resume the delete request.", source: https://web.whatsapp.com/serviceworker.js (215)
+[0421/123535.696:INFO:CONSOLE(265)] "Failed to parse video contentType: video/mp4; codecs=avc1.42000a", source: https://web.whatsapp.com/app.2c7f8dd150ae88037cde.js (265)
+[0421/123535.697:INFO:CONSOLE(265)] "Failed to parse video contentType: video/mp4; codecs=hev1.1.6.L93.B0", source: https://web.whatsapp.com/app.2c7f8dd150ae88037cde.js (265)
+[0421/212723.868:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0421/212728.893:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0421/212738.898:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0421/212758.912:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0422/114305.548:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0422/124356.927:INFO:CONSOLE(265)] "Failed to parse video contentType: video/mp4; codecs=avc1.42000a", source: https://web.whatsapp.com/app.2c7f8dd150ae88037cde.js (265)
+[0422/124356.927:INFO:CONSOLE(265)] "Failed to parse video contentType: video/mp4; codecs=hev1.1.6.L93.B0", source: https://web.whatsapp.com/app.2c7f8dd150ae88037cde.js (265)
