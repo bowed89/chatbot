@@ -2,13 +2,13 @@ const { Configuration, OpenAIApi } = require("openai");
 require("dotenv").config();
 const { getMeeting, updateMeeting } = require('../database/database_meeting');
 
-const { OPENAI_API_KEY } = process.env;
+//const { OPENAI_API_KEY } = process.env;
 const COMPLETIONS_MODEL = "text-davinci-003";
 const EMBEDDING_MODEL = "text-embedding-ada-002";
 
 // open ai configuration
 const configuration = new Configuration({
-    apiKey: OPENAI_API_KEY,
+    apiKey: process.env.OPENAI_API_KEY,
 });
 
 const openai = new OpenAIApi(configuration);

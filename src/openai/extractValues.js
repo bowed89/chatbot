@@ -5,11 +5,11 @@ const { promptNombre } = require("../utils/prompts/promptNombre");
 
 require("dotenv").config();
 
-const { OPENAI_API_KEY } = process.env;
+// const { OPENAI_API_KEY } = process.env;
 
 // open ai configuration
 const openai = new OpenAI({
-    apiKey: OPENAI_API_KEY,
+    apiKey: process.env.OPENAI_API_KEY,
 });
 
 const extraerHora = async (text) => {
