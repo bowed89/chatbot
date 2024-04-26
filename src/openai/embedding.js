@@ -7,8 +7,11 @@ const COMPLETIONS_MODEL = "text-davinci-003";
 const EMBEDDING_MODEL = "text-embedding-ada-002";
 
 // open ai configuration
-const configuration = new Configuration({
+/* const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
+}); */
+const configuration = new Configuration({
+    apiKey: process.env.NEXT_PUBLIC_OPENAI_KEY,
 });
 
 const openai = new OpenAIApi(configuration);
@@ -55,4 +58,4 @@ module.exports = {
     getEmbeddingConvertion,
     fineTunning,
     trainDatabase
-};73599
+}; 73599
