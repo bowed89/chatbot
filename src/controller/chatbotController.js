@@ -127,7 +127,8 @@ const chatbotController = async () => {
                 case States.WAITING_MENU_NUMBER:
                     switch (whatsappPrompt) {
                         case '1':
-                            client.sendMessage(message.from, `Ingrese el nombre del paciente, hora de reserva y la hora\n\n❗Ejemplo: Juan Perez a las 5 de la tarde del día de hoy\n❗Ejemplo: Juan Perez para el día 30 de agosto a las 9 AM \n❗Ejemplo: El 30/08/2023 a 14:30 para Juan Perez`);
+                            resCitaMsg = 'New';
+                            client.sendMessage(message.from, `Ingrese el nombre del paciente, hora de reserva y la hora\n\n❗Ejemplo: Juan Perez para el día 30 de agosto a las 9 AM \n❗Ejemplo: El 30/08/2023 a 14:30 para Juan Perez`);
                             conversation.state = States.WAITING_DATA_CLIENT;
                             break;
                         case '2':
@@ -191,8 +192,10 @@ const chatbotController = async () => {
 
                     if (hora === null || nombre === null || apellido === null || fecha_reserva === null) {
                         completeData();
+
                     } else {
                         ifNotNull();
+
                     }
 
 
